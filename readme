@@ -1,0 +1,28 @@
+This repository contains original Python implementations of programming problems inspired by the book 250+ Killer Python One-Liners by Hernando Abella.
+It serves as a hands-on practice collection for beginners, intermediates, and interview prep — covering strings, math, data structures, date/time, geometry, validation, and fun puzzles.
+
+📂 What’s Inside
+
+one_liners/ – One file per task (clear naming & docstring).
+
+tests/ – Unit tests for each task.
+
+cli/ – Run any one-liner from the command line.
+
+Topics covered:
+✔ String manipulation
+✔ Numbers & math
+✔ Date & time utilities
+✔ Arrays & lists
+✔ Geometry calculations
+✔ Validation & parsing
+✔ Puzzles & mini-games
+
+🎯 Purpose
+
+Learn Python syntax and built-in functions
+
+Practice solving problems in a single expressive line
+
+Prepare for coding interviews & competitive programming
+
