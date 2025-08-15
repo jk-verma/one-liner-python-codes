@@ -1,0 +1,13 @@
+# CHECK IF A STRING IS A VALID EMAIL ADDRESS
+
+# The IsValidEmail function returns true if the email string
+# matches the pattern, and false otherwise.
+
+import re
+def IsValidEmail(email):
+    return bool(re.match(r'^[^\s@]+@[^\s@]+\.[^\s@]+$', email))
+# Example usage
+print(IsValidEmail("user@example.com"))
+# True
+print(IsValidEmail("invalid-email"))
+# False
