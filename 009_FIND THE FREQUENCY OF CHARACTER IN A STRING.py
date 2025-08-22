@@ -1,7 +1,10 @@
-# FIND THE FREQUENCY OF CHARACTER IN A STRING
-
-# The character_frequency function finds
-# the frequency of characters in a String.
+'''
+Problem    : FIND THE FREQUENCY OF CHARACTER IN A STRING
+Description: The character_frequency function finds the frequency of characters in a String.
+@Author    : Dr. J. K. Verma
+@Date      : 2025-08-15
+@Version   : 1.0
+'''
 
 def character_frequency(string): return {char: string.count(char) for char in set(string)}
 

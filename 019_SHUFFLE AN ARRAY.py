@@ -1,7 +1,10 @@
-# SHUFFLE AN ARRAY
-
-# The shuffle_array function randomly
-# shuffles the elements of a given array.
+'''
+Problem    : SHUFFLE AN ARRAY
+Description: The shuffle_array function randomly shuffles the elements of a given array.
+@Author    : Dr. J. K. Verma
+@Date      : 2025-08-15
+@Version   : 1.0
+'''
 
 import random
 

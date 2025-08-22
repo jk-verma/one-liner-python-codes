@@ -1,7 +1,11 @@
-# CREATE RANDOM STRINGS
-# The random_string function generates a
-# random String of lowercase letters with the
-# specified length.
+'''
+Problem    : CREATE RANDOM STRINGS
+Description: The random_string function generates a random String of lowercase letters with the specified length.
+@Author    : Dr. J. K. Verma
+@Date      : 2025-08-15
+@Version   : 1.0
+'''
+
 import random
 import string
 

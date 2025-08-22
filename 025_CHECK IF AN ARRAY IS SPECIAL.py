@@ -1,7 +1,10 @@
-# CHECK IF AN ARRAY IS SPECIAL
-#
-# The is_special_array function determines whether an array is special, where every
-# even index contains an even number and every odd index contains an odd number.
+'''
+Problem    : CHECK IF AN ARRAY IS SPECIAL
+Description: The is_special_array function determines whether an array is special, where every even index contains an even number and every odd index contains an odd number.
+@Author    : Dr. J. K. Verma
+@Date      : 2025-08-15
+@Version   : 1.0
+'''
 
 def is_special_array(arr): return all(arr[i] % 2 == i % 2 for i in range(len(arr)))
 arr = [2, 3, 6, 8, 9]

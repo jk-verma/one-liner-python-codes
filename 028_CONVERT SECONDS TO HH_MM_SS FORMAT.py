@@ -1,6 +1,12 @@
-# CONVERT SECONDS TO HH:MM:SS FORMAT
+'''
+Problem    : CONVERT SECONDS TO HH:MM:SS FORMAT
+Description: The seconds_to_hhmmss function converts the given number of seconds into
+             the HH:MM:SS format.
+@Author    : Dr. J. K. Verma
+@Date      : 2025-08-15
+@Version   : 1.0
+'''
 
-# The seconds_to_hhmmss function converts the given number of seconds into the HH:MM:SS format.
 
 def seconds_to_hhmmss(seconds):
     hours = seconds // 3600

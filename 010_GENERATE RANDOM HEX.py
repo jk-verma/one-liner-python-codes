@@ -1,8 +1,12 @@
-# GENERATE RANDOM HEX
+'''
+Problem    : GENERATE RANDOM HEX
+Description: The random_hex function generates a random integer between 0 and 16777215 (0xffffff in hexadecimal).
+@Author    : Dr. J. K. Verma
+@Date      : 2025-08-15
+@Version   : 1.0
+'''
 
-# The random_hex function generates a
-# random integer between 0 and 16777215
-# (0xffffff in hexadecimal).
+
 
 import random
 

@@ -1,7 +1,10 @@
-# TRANSPOSE OF A MATRIX
-
-#The transpose_matrix function computes
-# the transpose of a given matrix.
+'''
+Problem    : TRANSPOSE OF A MATRIX
+Description: The transpose_matrix function computes the transpose of a given matrix.
+@Author    : Dr. J. K. Verma
+@Date      : 2025-08-15
+@Version   : 1.0
+'''
 
 def transpose_matrix(matrix):
     return [list(row) for row in zip(*matrix)]

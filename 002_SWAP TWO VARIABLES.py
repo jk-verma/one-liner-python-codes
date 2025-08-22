@@ -1,7 +1,11 @@
-# SWAP TWO VARIABLES
-
-# The swap_without_temp function swaps the values of two variables a and b without using
-# a temporary variable.
+'''
+Problem    : SWAP TWO VARIABLES
+Description: The swap_without_temp function swaps the values of two variables a and b without using
+             a temporary variable.
+@Author    : Dr. J. K. Verma
+@Date      : 2025-08-15
+@Version   : 1.0
+'''
 
 def swap_without_temp(a, b):
     return b, a

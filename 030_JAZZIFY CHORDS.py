@@ -1,7 +1,11 @@
-# JAZZIFY CHORDS
-
-# The jazzified_arr function appends the number 7 to the end of every chord in an array.
-# It ignores all chords that already end with 7.
+'''
+Problem    : JAZZIFY CHORDS
+Description: The jazzified_arr function appends the number 7 to the end of every chord
+             in an array. It ignores all chords that already end with 7.
+@Author    : Dr. J. K. Verma
+@Date      : 2025-08-15
+@Version   : 1.0
+'''
 
 def jazzify(arr): return [x if str(x)[-1] == '7' else x + 7 for x in arr]
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]

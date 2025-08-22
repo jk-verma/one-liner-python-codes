@@ -1,8 +1,10 @@
-# FIND THE ODD OCCURRENCE
-
-# The find_odd function finds the integer
-# which appears an odd number of times in a
-# given list of integers.
+'''
+Problem    : FIND THE ODD OCCURRENCE
+Description: The find_odd function finds the integer which appears an odd number of times in a given list of integers.
+@Author    : Dr. J. K. Verma
+@Date      : 2025-08-15
+@Version   : 1.0
+'''
 
 import random
 import functools

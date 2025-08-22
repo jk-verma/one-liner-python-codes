@@ -1,7 +1,10 @@
-# FIND THE NUMBER OF DAYS BETWEEN TWO DAYS
-
-# The day_diff function finds the number of
-# days between two days.
+'''
+Problem    : FIND THE NUMBER OF DAYS BETWEEN TWO DAYS
+Description: The day_diff function finds the number of days between two days.
+@Author    : Dr. J. K. Verma
+@Date      : 2025-08-15
+@Version   : 1.0
+'''
 
 from datetime import datetime
 

@@ -1,7 +1,11 @@
-# CHECK IF DATE IS VALID
+'''
+Problem    : CHECK IF DATE IS VALID
+Description: The is_date_valid function checks if a date is valid.
+@Author    : Dr. J. K. Verma
+@Date      : 2025-08-15
+@Version   : 1.0
+'''
 
-# The is_date_valid function checks if a date
-# is valid.
 from datetime import datetime
 def is_date_valid(val): return datetime.strptime(val, "%B "
                                                       "%d, %Y %H:%M:%S") if val else False
