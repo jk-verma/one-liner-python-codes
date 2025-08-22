@@ -1,5 +1,10 @@
-# GET THE CURRENT YEAR
-# The current_year function returns the current year as an integer.
+'''
+Problem    : GET THE CURRENT YEAR
+Description: The current_year function returns the current year as an integer.
+@Author    : Dr. J. K. Verma
+@Date      : 2025-08-15
+@Version   : 1.0
+'''
 
 from datetime import datetime
 def current_year(): return datetime.now().year
